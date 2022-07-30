@@ -1,0 +1,34 @@
+body {
+    background-color: #9f5dbb;
+}
+
+/* BEGINNING OF HEADER */
+.headerbox {
+    background-color: #ecf73a;
+    height: 200px;
+    width: 90%;
+    margin: auto;
+    border-radius: 15px;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+/* END OF HEADER */
+/* BEGINNING OF QUESTIONBOX */
+
+.questionbox{
+    background-color: #e78a85;
+    width: 50%;
+    height: 500px;
+    margin: auto;
+    padding: 10px;
+    border-radius: 15px;
+    text-align: center;
+}
+.conchimage {
+    width: 400px;
+    height: 300px;
+    border-radius: 15px;
+}

@@ -59,3 +59,27 @@ var TxtRotate = function(el, toRotate, period) {
 
 // END OF TEXT ANIMATION
 
+// BEGINNING OF BODY
+
+const magicEightBall = document.createElement('button')
+magicEightBall.innerHTML = "🐈‍⬛ ASK ME ANYTHING!!!!! 🐈‍⬛"
+magicEightBall.addEventListener('click', getAnswer)
+
+const BODY = document.querySelector('body')
+
+
+BODY.appendChild(magicEightBall)
+
+function getAnswer() {
+    console.dir(document)
+    .then(res => {
+        console.log(res)
+        return res.json()
+    })
+    .then(data => {
+        console.log(data)
+        const magicAnswer = document.createElement('p')
+        magicAnswer.innerHTML = `${data.text}`
+        BODY.append(magicAnswer)
+    })
+}

@@ -1,8 +1,13 @@
 /* BODY */
 
 body {
-    background-color: #1b232b;
+    background-color:rgb(0,0,0);
+    background-image:url(http://www.zingerbugimages.com/backgrounds/purple_stars.gif);
+    background-position:top left;
+    background-repeat:repeat;
+    background-attachment:fixed;
 }
+
 
 /* BEGINNING OF HEADER */
 
@@ -10,12 +15,12 @@ body {
     height: 300px;
     width: 90%;
     margin: auto;
-    background-color: #6679a3;
+    background-color: #50335b;
     border-radius: 15px;
 }
 
 h1 {
-    color: #c1cbe0;
+    color: #eee978;
     font-size: 100px;
     font-family: 'Henny Penny', cursive;
     text-align: center;
@@ -35,9 +40,9 @@ h3 {
 /* BEGINNING OF BODY */
 
 .questionbox {
-    background-color: #93a2c3;
+    background-color: #FF7E3D;
     height: 900px;
-    width: 50%;
+    width: 65%;
     margin: auto;
     border-radius: 15px;
 }
@@ -45,7 +50,7 @@ h3 {
 .textbox{
     border: solid 2px #1b232b;
     border-radius: 10px;
-    margin-left: 20%;
+    margin-left: 25%;
 
 }
 
@@ -54,6 +59,8 @@ button {
     border-radius: 15px;
     height: 50px;
     width: 30%;
-    margin-left: 35%;
+    margin-left: 34%;
 }
 
+
+background-color:rgb(0,0,0);background-image:url(http://www.zingerbugimages.com/backgrounds/purple_stars.gif);background-position:top left;background-repeat:repeat;background-attachment:fixed;}

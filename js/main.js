@@ -85,24 +85,24 @@ var TxtRotate = function(el, toRotate, period) {
 // }
 
 const imageArray = [
-	"./img/magic8ball_1.png",
-	"./img/magic8ball_4.png",
-	"./img/magic8ball_5.png",
-	"./img/magic8ball_6.png",
-	"./img/magic8ball_7.png",
-	"./img/magic8ball_8.png",
-	"./img/magic8ball_9.png",
-	"./img/magic8ball_10.png",
-	"./img/magic8ball_11.png",
-	"./img/magic8ball_12.png",
-	"./img/magic8ball_13.png",
-	"./img/magic8ball_14.png",
-	"./img/magic8ball_15.png",
-	"./img/magic8ball_16.png",
-  "./img/magic8ball_17.png",
-  "./img/magic8ball_18.png",
-  "./img/magic8ball_19.png",
-  "./img/magic8ball_20.png"
+	"./img/magic8ball_1.jpg",
+	"./img/magic8ball_4.jpg",
+	"./img/magic8ball_5.jpg",
+	"./img/magic8ball_6.jpg",
+	"./img/magic8ball_7.jpg",
+	"./img/magic8ball_8.jpg",
+	"./img/magic8ball_9.jpg",
+	"./img/magic8ball_10.jpg",
+	"./img/magic8ball_11.jpg",
+	"./img/magic8ball_12.jpg",
+	"./img/magic8ball_13.jpg",
+	"./img/magic8ball_14.jpg",
+	"./img/magic8ball_15.jpg",
+	"./img/magic8ball_16.jpg",
+  "./img/magic8ball_17.jpg",
+  "./img/magic8ball_18.jpg",
+  "./img/magic8ball_19.jpg",
+  "./img/magic8ball_20.jpg"
 ];
 
 const image = document.querySelector("img");
@@ -119,5 +119,5 @@ function generateRandomPicture(array){
 
 $("#btn").click(function(){
   var data = $("#textbox").val();
-  $("#textbox").replaceWith('<span id="playerAnswer">'+data+'</span>') 
+  $("#textbox").replaceWith('<p id="playerQuestion">'+data+'</p>') 
 });

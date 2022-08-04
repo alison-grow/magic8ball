@@ -107,12 +107,17 @@ const imageArray = [
 
 const image = document.querySelector("img");
 const button = document.querySelector("button");
-
-window.onload = () => generateRandomPicture(imageArray);
+var div = document.getElementById('answers');
 
 button.addEventListener("click", () => generateRandomPicture(imageArray));
 
 function generateRandomPicture(array){
 	let randomNum = Math.floor(Math.random() * array.length); 
 	image.setAttribute("src", array[randomNum]);
+  div.appendChild(image)
 }
+
+$("#btn").click(function(){
+  var data = $("#textbox").val();
+  $("#textbox").replaceWith('<span id="playerAnswer">'+data+'</span>') 
+});

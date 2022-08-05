@@ -104,7 +104,16 @@ audio {
     border: 10px solid #CE036C;
     background-color: #CE036C;
     border-radius: 15px;
-    display: block;
-    margin-left: auto;
+    display: inline-block;
+    margin-left: 4%;
     margin-right: auto;
+    margin-top: 17px;
+}
+
+.audioImage {
+    background-image: url('../img/glitterskull.gif.crdownload');
+    background-size: 150px 120px;
+    height: 120px;
+    width: 150px;
+    display: inline-block;
 }

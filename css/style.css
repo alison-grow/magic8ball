@@ -13,13 +13,13 @@ body {
 /* BEGINNING OF HEADER */
 
 .headerbox {
-    height: 250px;
+    height: 240px;
     width: 90%;
     margin: auto;
     margin-top: 5%;
     background-color: #000000;
-    border: 5px solid #CE036C;
-    border-radius: 15px;
+    border: 10px solid #CE036C;
+    border-radius: 30px;
 }
 
 h1 {
@@ -56,18 +56,21 @@ h3 {
     height: 900px;
     width: 55%;
     margin: auto;
-    border: 5px solid #CE036C;
-    border-radius: 15px;
+    border: 10px solid #CE036C;
+    border-radius: 30px;
 }
 
 #textbox{
-    border: solid 2px #CE036C;
+    border: solid 3px #CE036C;
     border-radius: 10px;
     display: block;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: -50px;
     margin-top: 20px;
+    cursor: url('https://cur.cursors-4u.net/holidays/hol-4/hol337.cur'), auto !important;
+    font-family: 'Special Elite', cursive;
+    font-size: 20px;
 }
 
 button {
@@ -81,12 +84,13 @@ button {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    cursor: url('https://cur.cursors-4u.net/holidays/hol-4/hol337.cur'), auto !important;
 }
 
 #answers {
     background-color: #ffffff;
     border: solid 10px #CE036C;
-    border-radius: 15px;
+    border-radius: 30px;
     height: 500px;
     width: 500px;
     margin: auto;
